@@ -400,7 +400,7 @@ def main():
         
         if args.find_hash:
             if not args.quiet:
-                print(f"🔍 Searching for hash: {args.find_hash}")
+                print(f"Searching for hash: {args.find_hash}")
             chunk = analyzer.find_chunk_by_hash(args.find_hash)
             if chunk:
                 print(f" Found chunk: {chunk.filename}")
