@@ -1,0 +1,1 @@
+DUES is a powerful digital forensics tool designed for storing, analyzing, and searching disk images and files with advanced deduplication, encryption, and relationship analysis capabilities. Built specifically for forensic examiners who need to efficiently manage and analyze large volumes of digital evidence.
