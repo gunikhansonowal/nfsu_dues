@@ -1,0 +1,31 @@
+name: spacebar
+description: "spacebar"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  crypto: ^3.0.7
+  file_picker: ^10.0.0
+  fixnum: ^1.1.1
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.0.0
+  fpdart: ^1.1.0
+  get_it: ^9.1.0
+  grpc: ^5.0.0
+  image_picker: ^1.1.2
+  logger: ^2.4.0
+  pointycastle: ^4.0.0
+  protobuf: ^5.1.0
+  protoc_plugin: ^24.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
