@@ -450,8 +450,8 @@ class ProfilerGUI:
         
     def reset_args(self):
         """Reset base arguments to default"""
-        self.base_args_var.set("store -d ./Testdata")
-        self.base_args = ["store", "-d", "./Testdata"]
+        self.base_args_var.set("reset -d ./Testdata")
+        self.base_args = ["reset", "-d", "./Testdata"]
         self.data_dir = os.path.join(self.working_dir.get(), "Testdata")
         
     def browse_directory(self):
